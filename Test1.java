@@ -1,1 +1,2 @@
-tttt
+class Test1{
+}
