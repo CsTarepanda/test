@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 from requests_oauthlib import OAuth1
 import requests
-api_key = "yOFiaBnu6qJYDfFWiXiwa80dN"
-api_secret = "kn8jzWCF9AQkTXl3aQp79cd5PKqZct3gfW4aX3tiizd9w90UKv"
-token = "3142731804-QKkbAyhi4RWj2UUW85CQ5OylhhOZEHQVLyX24cO"
-token_secret = "pHIZ2WydnOtqnRf0eo6hBt47yWOrMz0f4VZHLB8nvgWXO"
+api_key = ""
+api_secret = ""
+token = ""
+token_secret = ""
 
 url = "https://api.twitter.com/1.1/statuses/user_timeline.json"
 
