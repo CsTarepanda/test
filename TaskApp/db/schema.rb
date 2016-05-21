@@ -29,13 +29,4 @@ ActiveRecord::Schema.define(version: 20160116045725) do
 
   add_index "tasks", ["project_id"], name: "index_tasks_on_project_id"
 
-  create_table "titles", force: :cascade do |t|
-    t.boolean  "done",       default: false
-    t.integer  "project_id"
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
-  end
-
-  add_index "titles", ["project_id"], name: "index_titles_on_project_id"
-
 end
